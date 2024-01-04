@@ -1,0 +1,31 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<package xmlns="http://schemas.microsoft.com/packaging/2013/01/nuspec.xsd">
+	<metadata minClientVersion="2.12">
+		<id>Digi21.Digi3D.App</id>
+		<version>24.0.0</version>
+		<title>Digi21.DigiNG.IO.Bin</title>
+		<authors>José Ángel Martínez Torres</authors>
+		<owners></owners>
+		<requireLicenseAcceptance>false</requireLicenseAcceptance>
+		<license type="expression">MIT</license>
+		<readme>README.md</readme>
+		<icon>IconoDigi21.png</icon>
+		<projectUrl>https://digi3d.net/</projectUrl>
+		<description>This package contains a PostBuildEvent that adds to the .runtimeconfig.json of the dependent program the path to the Digi3D.NET installation so that the standalone application can be executed from any directory.
+
+A Digi3D.NET license is required to run applications that use the assemblies published by this package. Rent a license at https://www.digi21.net/Tienda/Alquiler or buy a license at https://www.digi21.net/Tienda/Compra
+		</description>
+		<copyright>(c) 2000-2024 Dreaming With Objects S.L.</copyright>
+		<tags>Digi3D Digi3D.NET Digi21 Digi DigiNG</tags>
+		<repository type="git" url="https://github.com/digi21/Digi21.Digi3D.App.git" />
+	</metadata>
+	<files>
+		<file src="IconoDigi21.png" target="IconoDigi21.png" />
+		<file src="README.md" target="README.md" />
+		<file src="Digi21.Digi3D.App.targets" target="build\Digi21.Digi3D.App.targets" />
+		<file src="..\Digi21.Digi3D.App\bin\Release\net8.0-windows\Digi21.Digi3D.App.deps.json" target="build\Digi21.Digi3D.App.deps.json" />
+		<file src="..\Digi21.Digi3D.App\bin\Release\net8.0-windows\Digi21.Digi3D.App.dll" target="build\Digi21.Digi3D.App.dll" />
+		<file src="..\Digi21.Digi3D.App\bin\Release\net8.0-windows\Digi21.Digi3D.App.exe" target="build\Digi21.Digi3D.App.exe" />
+		<file src="..\Digi21.Digi3D.App\bin\Release\net8.0-windows\Digi21.Digi3D.App.runtimeconfig.json" target="build\Digi21.Digi3D.App.runtimeconfig.json" />
+	</files>
+</package>

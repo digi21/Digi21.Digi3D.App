@@ -1,0 +1,8 @@
+{
+  "profiles": {
+    "Digi21.Digi3D.App": {
+      "commandName": "Project",
+      "commandLineArgs": "C:\\Users\\josea\\source\\repos\\cargabind\\cargabind\\bin\\Debug\\net8.0\\cargabind.runtimeconfig.json"
+    }
+  }
+}
