@@ -1,3 +1,5 @@
+[![NuGet](https://img.shields.io/nuget/v/Digi21.Digi3D.App?style=flat)](https://www.nuget.org/packages/Digi21.Digi3D.App/)
+
 # Digi21.Digi3D.App
 
 If a user application uses any of the NuGet packages provided by the [Digi3D.NET](https://www.digi21.net/Digi3D) application, such as [Digi21.DigiNG.IO.Bin](https://www.nuget.org/packages/Digi21.DigiNG.Io.Bin), as in _.NET8.0_ there is no concept of _Global Area Cache_, when executing the application it will not locate the assemblies provided by _Digi3D.NET_.
