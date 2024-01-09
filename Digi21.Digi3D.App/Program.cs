@@ -8,6 +8,11 @@ if (args.Length != 1)
     return 1;
 }
 
+if (!File.Exists(args[0]))
+{
+    return 0;
+}
+
 var localMachine = Registry.LocalMachine;
 
 var software = localMachine.OpenSubKey("SOFTWARE", RegistryRights.ReadKey);
