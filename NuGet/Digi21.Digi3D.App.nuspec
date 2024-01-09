@@ -2,7 +2,7 @@
 <package xmlns="http://schemas.microsoft.com/packaging/2013/01/nuspec.xsd">
 	<metadata minClientVersion="2.12">
 		<id>Digi21.Digi3D.App</id>
-		<version>24.0.0</version>
+		<version>24.0.1</version>
 		<title>Digi21.DigiNG.IO.Bin</title>
 		<authors>José Ángel Martínez Torres</authors>
 		<owners></owners>
